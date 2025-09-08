@@ -1,6 +1,16 @@
+[build]
+  command = "echo 'No build needed - using pre-built files'"  # No build required
+  publish = "."  # Serve files from the root directory
+
+# Redirect for React SPA - all account routes to index.html
 [[redirects]]
   from = "/account/*"
   to = "/account/index.html"
   status = 200
-  force = true
-  
+
+# Optional: Redirect root to main index.html if needed
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
