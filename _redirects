@@ -1,0 +1,4 @@
+/account/login  /account/index.html  200
+/account/*  /account/index.html  200
+/account/  /account/login  301
+/account/index  /account/login  301
