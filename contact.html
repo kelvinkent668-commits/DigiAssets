@@ -18,6 +18,147 @@
     <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
 
+
+    <style>
+        @media (max-width: 576px) {
+            .navbar-brand {
+                margin-top: -30px !important;
+            }
+
+            .navbar-brand img {
+                height: 150px !important;
+            }
+        }
+
+
+        @media (max-width: 576px) {
+            .navbar-toggler {
+                margin-top: -25px !important;
+                /* Move it down slightly */
+                margin-right: 10px !important;
+                /* Add right margin if needed */
+                padding: 4px 6px !important;
+                /* Make it a bit smaller */
+                font-size: 1rem;
+                /* Adjust icon size */
+            }
+
+            .navbar-toggler .toggler-icon {
+                background-color: #000;
+                /* Optional: darker lines for visibility */
+                height: 2px;
+                width: 20px;
+                margin: 4px 0;
+                display: block;
+            }
+        }
+
+        /* ------------------------------------------------------ */
+        @media (max-width: 768px) {
+            .navbar-brand {
+                margin-top: -30px !important;
+            }
+
+            .navbar-brand img {
+                height: 150px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-toggler {
+                margin-top: -25px !important;
+                /* Move it down slightly */
+                margin-right: 10px !important;
+                /* Add right margin if needed */
+                padding: 4px 6px !important;
+                /* Make it a bit smaller */
+                font-size: 1rem;
+                /* Adjust icon size */
+            }
+
+            .navbar-toggler .toggler-icon {
+                background-color: #000;
+                /* Optional: darker lines for visibility */
+                height: 2px;
+                width: 20px;
+                margin: 4px 0;
+                display: block;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .sub-menu-bar {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                white-space: nowrap;
+            }
+
+            .navbar-nav {
+                flex-wrap: nowrap;
+                display: flex;
+                gap: 1rem;
+                /* spacing between items */
+            }
+
+            .navbar-nav .nav-item {
+                flex: 0 0 auto;
+                /* prevent shrinking */
+            }
+
+            .navbar-nav .nav-item a {
+                white-space: nowrap;
+                /* prevent text wrapping */
+                padding: 10px 15px;
+            }
+
+            .navbar-toggler {
+                margin-top: -105px !important;
+                /* Move it down slightly */
+                margin-right: 10px !important;
+                /* Add right margin if needed */
+                padding: 4px 6px !important;
+                /* Make it a bit smaller */
+                font-size: 1rem;
+            }
+
+            .navbar-toggler .toggler-icon {
+                background-color: #000;
+                height: 2px;
+                width: 20px;
+                margin: 4px 0;
+                display: block;
+            }
+        }
+    </style>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '826873143ad6078f5845d8aacb5644e24c8998e6';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </head>
 
 <body>
@@ -49,7 +190,7 @@
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/white-logo.svg" alt="DigiAssests Logo">
+                                <img src="assets/images/logo/lg1.png" alt="DigiAssests logo">
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -66,8 +207,13 @@
                                     <li class="nav-item">
                                         <a href="about-us.html" aria-label="Toggle navigation">About</a>
                                     </li>
-                                   
-                                  
+
+                                    <li class="nav-item">
+                                        <a href="plan.html" aria-label="Toggle navigation">Plan</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="service.html" aria-label="Toggle navigation">Service</a>
+                                    </li>
                                     <li class="nav-item">
                                         <a href="contact.html" class="active" aria-label="Toggle navigation">Contact</a>
                                     </li>
@@ -116,18 +262,16 @@
                         </div>
                         <div class="contact-widget-block">
                             <h3 class="title">Customer Support</h3>
-                            <p>+1-888-344-ASSETS (2773)</p>
                             <p>Monday - Friday: 9AM - 6PM EST</p>
                         </div>
                         <div class="contact-widget-block">
                             <h3 class="title">Email Inquiries</h3>
                             <p>support@digiassests.com</p>
-                            <p>investments@digiassests.com</p>
                         </div>
                         <div class="contact-widget-block">
                             <h3 class="title">Corporate Office</h3>
                             <p>123 Digital Avenue, Suite 450</p>
-                            <p>New York, NY 10005, USA</p>
+                            <p>New York,</p>
                         </div>
                     </div>
                 </div>
@@ -175,7 +319,7 @@
                                         <div class="form-check">
                                             <input type="checkbox" class="form-check-input" id="consentCheck" required>
                                             <label class="form-check-label" for="consentCheck">
-                                                I agree to the <a href="privacy-policy.html">Privacy Policy</a> and
+                                                I agree to the <a href="#">Privacy Policy</a> and
                                                 consent to being contacted by DigiAssests.
                                             </label>
                                         </div>
@@ -225,14 +369,14 @@
                             <!-- Single Widget -->
                             <div class="single-footer f-about">
                                 <div class="logo">
-                                    <a href="index.html">
-                                        <img src="assets/images/logo/white-logo.svg" alt="DigiAssests Logo">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="assets/images/logo/lg1.png" alt="DigiAssests logo">
                                     </a>
                                 </div>
                                 <p>DigiAssests provides secure and innovative digital asset investment solutions with
                                     transparency and professional management.</p>
                                 <h4 class="social-title">Connect With Us:</h4>
-                               
+
                             </div>
                             <!-- End Single Widget -->
                         </div>

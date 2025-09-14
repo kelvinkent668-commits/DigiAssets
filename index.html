@@ -16,6 +16,146 @@
     <link rel="stylesheet" href="assets/css/glightbox.min.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
 
+    <style>
+        @media (max-width: 576px) {
+            .navbar-brand {
+                margin-top: -30px !important;
+            }
+
+            .navbar-brand img {
+                height: 150px !important;
+            }
+        }
+
+
+        @media (max-width: 576px) {
+            .navbar-toggler {
+                margin-top: -25px !important;
+                /* Move it down slightly */
+                margin-right: 10px !important;
+                /* Add right margin if needed */
+                padding: 4px 6px !important;
+                /* Make it a bit smaller */
+                font-size: 1rem;
+                /* Adjust icon size */
+            }
+
+            .navbar-toggler .toggler-icon {
+                background-color: #000;
+                /* Optional: darker lines for visibility */
+                height: 2px;
+                width: 20px;
+                margin: 4px 0;
+                display: block;
+            }
+        }
+
+        /* ------------------------------------------------------ */
+        @media (max-width: 768px) {
+            .navbar-brand {
+                margin-top: -30px !important;
+            }
+
+            .navbar-brand img {
+                height: 150px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .navbar-toggler {
+                margin-top: -25px !important;
+                /* Move it down slightly */
+                margin-right: 10px !important;
+                /* Add right margin if needed */
+                padding: 4px 6px !important;
+                /* Make it a bit smaller */
+                font-size: 1rem;
+                /* Adjust icon size */
+            }
+
+            .navbar-toggler .toggler-icon {
+                background-color: #000;
+                /* Optional: darker lines for visibility */
+                height: 2px;
+                width: 20px;
+                margin: 4px 0;
+                display: block;
+            }
+        }
+
+        @media (max-width: 991.98px) {
+            .sub-menu-bar {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                white-space: nowrap;
+            }
+
+            .navbar-nav {
+                flex-wrap: nowrap;
+                display: flex;
+                gap: 1rem;
+                /* spacing between items */
+            }
+
+            .navbar-nav .nav-item {
+                flex: 0 0 auto;
+                /* prevent shrinking */
+            }
+
+            .navbar-nav .nav-item a {
+                white-space: nowrap;
+                /* prevent text wrapping */
+                padding: 10px 15px;
+            }
+
+            .navbar-toggler {
+                margin-top: -105px !important;
+                /* Move it down slightly */
+                margin-right: 10px !important;
+                /* Add right margin if needed */
+                padding: 4px 6px !important;
+                /* Make it a bit smaller */
+                font-size: 1rem;
+            }
+
+            .navbar-toggler .toggler-icon {
+                background-color: #000;
+                height: 2px;
+                width: 20px;
+                margin: 4px 0;
+                display: block;
+            }
+        }
+    </style>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <script type="text/javascript">
+        var _smartsupp = _smartsupp || {};
+        _smartsupp.key = '826873143ad6078f5845d8aacb5644e24c8998e6';
+        window.smartsupp || (function (d) {
+            var s, c, o = smartsupp = function () {
+                o._.push(arguments)
+            };
+            o._ = [];
+            s = d.getElementsByTagName('script')[0];
+            c = d.createElement('script');
+            c.type = 'text/javascript';
+            c.charset = 'utf-8';
+            c.async = true;
+            c.src = 'https://www.smartsuppchat.com/loader.js?';
+            s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    <noscript> Powered by <a href=“https://www.smartsupp.com” target=“_blank”>Smartsupp</a></noscript>
 </head>
 
 <body>
@@ -46,9 +186,11 @@
                     <div class="nav-inner">
                         <!-- Start Navbar -->
                         <nav class="navbar navbar-expand-lg">
+
                             <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/white-logo.svg" alt="DigiAssests Logo">
+                                <img src="assets/images/logo/lg1.png" alt="DigiAssests logo">
                             </a>
+
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
@@ -64,7 +206,12 @@
                                     <li class="nav-item">
                                         <a href="about-us.html" aria-label="Toggle navigation">About</a>
                                     </li>
-                                   
+                                    <li class="nav-item">
+                                        <a href="plan.html" aria-label="Toggle navigation">Plan</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="service.html" aria-label="Toggle navigation">Service</a>
+                                    </li>
                                     <li class="nav-item">
                                         <a href="contact.html" aria-label="Toggle navigation">Contact</a>
                                     </li>
@@ -73,6 +220,7 @@
                             <div class="button">
                                 <a href="/account/index.html" class="btn">Get started</a>
                             </div>
+
                         </nav>
                         <!-- End Navbar -->
                     </div>
@@ -103,6 +251,10 @@
                         </p>
                         <div class="button wow fadeInUp" data-wow-delay=".8s">
                             <a href="/account/index.html" class="btn ">Start Investing</a>
+                        </div>
+
+                        <div class="navbar-custom-menu r-side" style="margin-top: 20px">
+                            <div id="google_translate_element"></div>
                         </div>
                     </div>
                 </div>
@@ -236,7 +388,7 @@
                             <h4>Michael Chen
                                 <span>Founder & CEO</span>
                             </h4>
-                          
+
                         </div>
                     </div>
                     <!-- End Single Team -->
@@ -251,7 +403,7 @@
                             <h4>Sarah Johnson
                                 <span>Chief Technology Officer</span>
                             </h4>
-                           
+
                         </div>
                     </div>
                     <!-- End Single Team -->
@@ -266,7 +418,7 @@
                             <h4>David Kim
                                 <span>Chief Financial Officer</span>
                             </h4>
-                          
+
                         </div>
                     </div>
                     <!-- End Single Team -->
@@ -281,7 +433,7 @@
                             <h4>Amara Patel
                                 <span>Investment Director</span>
                             </h4>
-                           
+
                         </div>
                     </div>
                     <!-- End Single Team -->
@@ -576,7 +728,8 @@
                             <div class="meta-info">
                                 <a class="date" href="javascript:void(0)"><i class="lni lni-timer"></i> 10 June 2023
                                 </a>
-                                <a class="author" href="javascript:void(0)"><i class="lni lni-user"></i> DigiAssests Team
+                                <a class="author" href="javascript:void(0)"><i class="lni lni-user"></i> DigiAssests
+                                    Team
                                 </a>
                             </div>
                             <h4>
@@ -603,7 +756,8 @@
                             <div class="meta-info">
                                 <a class="date" href="javascript:void(0)"><i class="lni lni-timer"></i> 5 Aug 2023
                                 </a>
-                                <a class="author" href="javascript:void(0)"><i class="lni lni-user"></i> DigiAssests Team
+                                <a class="author" href="javascript:void(0)"><i class="lni lni-user"></i> DigiAssests
+                                    Team
                                 </a>
                             </div>
                             <h4>
@@ -630,7 +784,8 @@
                             <div class="meta-info">
                                 <a class="date" href="javascript:void(0)"><i class="lni lni-timer"></i> 25 Dec 2023
                                 </a>
-                                <a class="author" href="javascript:void(0)"><i class="lni lni-user"></i> DigiAssests Team
+                                <a class="author" href="javascript:void(0)"><i class="lni lni-user"></i> DigiAssests
+                                    Team
                                 </a>
                             </div>
                             <h4>
@@ -788,14 +943,14 @@
                             <!-- Single Widget -->
                             <div class="single-footer f-about">
                                 <div class="logo">
-                                    <a href="index.html">
-                                        <img src="assets/images/logo/white-logo.svg" alt="DigiAssests Logo">
+                                    <a class="navbar-brand" href="index.html">
+                                        <img src="assets/images/logo/lg1.png" alt="DigiAssests logo">
                                     </a>
                                 </div>
                                 <p>DigiAssests provides secure and innovative digital asset investment solutions with
                                     transparency and professional management.</p>
                                 <h4 class="social-title">Connect With Us:</h4>
-                              
+
                             </div>
                             <!-- End Single Widget -->
                         </div>
